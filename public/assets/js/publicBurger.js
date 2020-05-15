@@ -1,5 +1,6 @@
 $(function() {
     $(".change-burger").on("click", function(event) {
+      console.log("changing burger")
       var id = $(this).data("id");
       var newDevour = $(this).data("newdevour");
   
